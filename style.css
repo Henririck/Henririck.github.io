@@ -1,0 +1,27 @@
+.mancala-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pit {
+    width: 80px;
+    height: 80px;
+    background-color: burlywood;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.mancala {
+    background-color: gray;
+}
+
+.selected {
+    background-color: yellow;
+}
